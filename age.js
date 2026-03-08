@@ -1,0 +1,10 @@
+let year_of_birth=2006;
+let current_year=2026;
+let your_age_in_years=current_year-year_of_birth;
+let your_age_in_days=365* your_age_in_years;
+let your_age_in_hours=24*your_age_in_days;
+let your_age_in_second=60*your_age_in_hours;
+console.log("your_age_in_years = "+your_age_in_years);
+console.log("your_age_in_days = "+your_age_in_days);
+console.log("your_age_in_hours = "+your_age_in_hours);
+console.log("your_age_in_second = "+your_age_in_second);
